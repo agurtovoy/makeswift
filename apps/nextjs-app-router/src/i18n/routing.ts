@@ -6,12 +6,14 @@ export const routing = defineRouting({
   // localePrefix: 'as-needed',
   domains: [
     {
-      domain: 'pages.agurtovoy.work',
+      domain: 'app.agurtovoy.work',
       defaultLocale: 'en-US',
+      locales: ['en-US'],
     },
     {
-      domain: 'pages-fr.agurtovoy.work',
+      domain: 'app-fr.agurtovoy.work',
       defaultLocale: 'fr-FR',
+      locales: ['fr-FR'],
     },
   ],
   localePrefix: 'never',
