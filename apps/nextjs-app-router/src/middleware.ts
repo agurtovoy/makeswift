@@ -17,7 +17,7 @@ export function middleware(request: NextRequest): NextResponse {
 
 export const config = {
   matcher: [
-    // Skip all internal paths (_next) and paths to the makeswift api handlers
-    '/((?!_next|api/makeswift).*)',
+    // Skip all internal paths (_next) and paths to the api handlers
+    '/((?!_next|api).*)',
   ],
 }
